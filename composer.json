@@ -17,6 +17,7 @@
       "psr-4": {
         "Janevskij\\Test\\": ""
       },
+      "require": {},
       "minimum-stability": "dev",
       "files": [
         "registration.php"
