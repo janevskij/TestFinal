@@ -1,0 +1,25 @@
+{
+    "name": "test/test",
+    "description": "",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "MIT"
+    ],
+    "repositories":
+    [ 
+      { 
+        "type": "vcs",
+         "url": "git@github.com:janevskij/test1.git"
+      } 
+    ],
+    "autoload": {
+      "psr-4": {
+        "Test\\Test\\": ""
+      },
+      "files": [
+        "registration.php"
+      ]
+    }
+    
+  }
